@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20% 4%;
+    color: #fff;
+    background-color: rgb(52, 36, 54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    text-align: center;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: rgba(37, 8, 64, 0.818);
+}
+.image-div{
+    background-image: url("images/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100%;
+    position: relative;
+    
+}
+.overlay{
+    background-color: rgba(93, 6, 164, 0.583); width: 100%;
+    height: 100%;
+   
+}
+.content-div{
+    padding: 3%;
+    margin-bottom: 8%
+    
+}
+.content-div h1{
+    padding: 3%;
+    line-height: 150%;
+    font-size: 35px ;
+}
+.content-div p{
+    padding: 1%;
+    line-height: 150%;
+    font-size: 22px ;
+    color: rgb(164, 164, 164);
+}
+.content-div span{
+    color: #cf16fd;
+}
+.insight-div h2{
+    padding: 1%;
+    font-size: 30px ;
+}
+.insight-div p{
+    
+    line-height: 150%;
+    color: rgb(164, 164, 164);
+    font-size: 20px ;
+}
+.insight-div{
+    margin-bottom: 9%;
+}
