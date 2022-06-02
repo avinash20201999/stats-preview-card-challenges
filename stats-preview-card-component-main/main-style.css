@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    padding: 20% 4%;
+    padding: 20% 4.3%;
     color: #fff;
     background-color: rgb(52, 36, 54);
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +13,7 @@ body{
 .main-container{
     text-align: center;
     overflow: hidden;
+    max-width: 387px;
     border-radius: 12px;
     background-color: rgba(37, 8, 64, 0.818);
 }
@@ -60,4 +61,13 @@ body{
 }
 .insight-div{
     margin-bottom: 9%;
+}
+@media screen and (min-width:1440px ) {
+    body{
+        padding: 5% 36%;
+        color: #fff;
+        background-color: rgb(52, 36, 54);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
 }
